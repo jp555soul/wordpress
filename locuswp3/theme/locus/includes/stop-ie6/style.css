@@ -1,0 +1,74 @@
+/* CSS Reset */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,hr {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th {font-size:1em; font-weight:normal; font-style:normal;}
+ul,ol {list-style:none;}
+fieldset,img,hr {border:none;}
+caption,th {text-align:left;}
+table {border-collapse:collapse; border-spacing:0;}
+td {vertical-align:top;}
+
+.clear:after {content: ""; display: block; clear: both; outline: none;}
+.clear {zoom: 1;} 
+.clear a {outline:none;}
+
+#wrap {
+ 	width: 960px;
+ 	margin: 0 auto;
+ 	color: #7a7a7a;
+}
+
+.logo {
+	float:left;
+	position:relative;
+	left:50%;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Helvetica, Arial, sans-serif;
+	padding-top: 35px;
+}
+.lcenter {
+	float:left;
+	position:relative;
+	left:-50%;
+}
+.logo h1 {
+	display: inline-block;
+	color:#282828;
+	font-size:25px;
+	text-transform: uppercase;
+	margin-bottom:14px;
+	padding-top:32px;
+}
+.logo h1 a {
+	color:#282828;
+	text-decoration: none;
+}
+
+.logo img {
+	margin-bottom: 20px;
+}
+
+.box-top {
+	margin-top: 100px;
+}
+.box-middle {
+}
+.box-bottom {
+}
+
+.intro {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	width: 580px;
+	margin: 0 auto;
+}
+
+#icons {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#icons li {
+	display: inline;
+	padding: 0 6px;
+}

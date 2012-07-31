@@ -1,0 +1,268 @@
+/*-----------------------------------------------------------------------------------*/
+/*	LAYOUT
+/*-----------------------------------------------------------------------------------*/
+
+body {
+	background: #000 url(../images/dark/bg1.jpg) 50% 0 no-repeat;
+	background-attachment: fixed;
+	color:#8B8A88;
+}
+#wrapper {
+	width:964px;
+	margin:0 auto;
+}
+.flexslider, .section-container, .grid li, .panel-container, .contact-container, #bottom, .title, ul.gallery li {
+	background: transparent url(../images/dark/transbg.png) repeat;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#header {
+	background: #000 url(../images/dark/bg1.jpg) 50% 0 no-repeat;
+	background-attachment: fixed;
+}
+a {
+	color: #FFF;
+}
+.lite {
+	color: #FFF;
+	border-bottom: 1px dashed #FFF;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#FFF;
+}
+#logo h1 {
+	color:#FFF;
+}
+#logo h1 a {
+	color:#FFF;
+}
+ul.unordered li {
+	background-image: url(../images/dark/bullet.png);
+}
+a.button {
+	background:#1d1d1d url(../images/dark/button.png) repeat-x;
+	color:#8B8A88;
+}
+a.button:hover {
+	background-color: #2a2a2a;
+	color:#8B8A88;
+}
+
+/* TABLES */
+/* ----------------------------------------- */
+
+table {
+	border-bottom:1px solid #8B8A88;
+	border-top:1px solid #8B8A88;
+}
+
+table td {
+	border-right:1px solid #8B8A88;
+}
+
+table td:hover {
+	background-color: #333;
+}
+
+table th {
+	color:#FFF;
+	border-right:1px solid #8B8A88;
+}
+
+table tr {
+	border-left:1px solid #8B8A88;
+	border-top:1px solid #8B8A88;
+}
+
+table tr.caption {
+	border-left:1px solid #8B8A88;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	MENU
+/*-----------------------------------------------------------------------------------*/
+
+ul.menu {
+	background: transparent url(../images/dark/menu.jpg) repeat;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+ul.menu li {
+	background-image:url(../images/dark/menu-line.png);
+	padding-right: 2px;
+	margin-left: -1px;
+}
+ul.menu li a {
+	color:#FFF;
+}
+ul.menu li a:hover, ul.menu li.current a {
+	background-color: #101010;
+	color:#FFF;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SLIDER
+/*-----------------------------------------------------------------------------------*/
+
+.flexslider {
+	border-color: transparent;
+}
+.flex-caption {
+	background-color: #000;
+	color: #FFF;
+}
+.flex-direction-nav li a {
+	background-image: url(../images/dark/slider-arrows.png);
+}
+.flex-control-nav li a {
+	background-image: url(../images/dark/slider-buttons.png);
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SERVICE COLUMNS
+/*-----------------------------------------------------------------------------------*/
+
+#service-columns p {
+	color:#8b8a88;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	ABOUT
+/*-----------------------------------------------------------------------------------*/
+
+.section-container ul li {
+	background-image: url(../images/dark/bullet.png);
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	PORTFOLIO
+/*-----------------------------------------------------------------------------------*/
+.grid li, ul.gallery li {
+	border: 10px solid transparent;
+}
+.gallerynav li {
+	color:#8b8a88;
+}
+.gallerynav li a {
+	color:#8b8a88;
+}
+.gallerynav li a:hover, .gallerynav li.active {
+	background-color:#000;
+}
+.caption {
+	background:#000;
+	color: #FFF;
+}
+
+.fancybox-title-outside-wrap a {
+	text-decoration: underline;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	NEWS
+/*-----------------------------------------------------------------------------------*/
+.jcarousel-container {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.jcarousel-container ul {
+	background:transparent url(../images/dark/transbg.png) repeat;
+}
+.jcarousel-item {
+	height: 60px;
+	border: none;
+	background-color: transparent;
+	background-image:url(../images/dark/tab.png);
+	background-position: top;
+	background-position-y: 0px;
+	background-repeat: no-repeat;
+}
+.jcarousel-item a {
+	color: #9e9d9c;
+}
+.jcarousel-item a:hover, .jcarousel-item a.active {
+	color: #FFF;
+}
+.jcarousel-container-vertical {
+	padding: 32px 0;
+}
+.jcarousel-next-vertical, .jcarousel-prev-vertical {
+	height: 32px;
+	background: transparent url(../images/dark/down.png) no-repeat 0 0;
+}
+.jcarousel-prev-vertical {
+	top: 0px;
+	border-bottom:none;
+	background-image: url(../images/dark/up.png);
+}
+.jcarousel-next-vertical:hover {
+	background-position: 0 -34px;
+}
+.jcarousel-prev-vertical:hover {
+	background-position: 0 -32px;
+}
+.panel-container span.postdate { 
+	color: #adadad;
+}
+.date {
+	background: #171717;
+	color: #a7a7a7;
+}
+/*-----------------------------------------------------------------------------------*/
+/*	CONTACT
+/*-----------------------------------------------------------------------------------*/
+
+.scrolltop {
+	background-image: url(../images/dark/top.png);
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	FORMS
+/*-----------------------------------------------------------------------------------*/
+
+.forms fieldset .text-input {
+	background-color: #202020;
+	color:#8B8A88;
+}
+
+.forms fieldset .text-area {
+	background-color: #202020;
+	color:#8B8A88;
+}
+
+.forms fieldset .text-input:focus, .forms fieldset .text-area:focus {
+	background-color: #202020;
+}
+
+.forms fieldset .btn-submit {
+	background-image:url(../images/dark/button.png);
+	background-color: #1d1d1d;
+	color:#8B8A88;
+}
+.forms fieldset .btn-submit:hover {
+	background-color: #2a2a2a;
+	color:#8B8A88;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	TWITTER
+/*-----------------------------------------------------------------------------------*/
+#twitter {
+	background-color: #202020;
+}
+.twitter-wrapper .bird {
+	background: transparent url(../images/dark/icon-bird.png) no-repeat;
+}
+.twitterStatus {
+	color: #888888;
+}
+.message a {
+	color: #FFF;
+}
+em.twitterTime a {
+	color: #FFF;
+}

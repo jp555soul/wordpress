@@ -1,0 +1,174 @@
+.nav-shortcode-tabs {font: normal 11px Arial, sans-serif; border: 1px solid #ccc; text-transform: capitalize; margin: 6px 0; height: 29px; padding: 0; background: url(../images/bg_grad_grey.png) repeat-x 0 10px;}
+.nav-shortcode-tabs li {display: inline;}
+.nav-shortcode-tabs li a {display: block; float: left; padding: 7px 7px; border-right: 1px solid #ccc; border-left: 1px solid #fff; color: #121212; font-weight: bold; border-bottom: 1px solid #ccc; text-decoration: none; color: #333;}
+.nav-shortcode-tabs li a:hover {background: #fff; color: #000;}
+.nav-shortcode-tabs li.active a {background: #fff; margin-bottom: -1px; border-bottom: 1px solid #fff; color: #000;}
+
+.shortcode-tab {font: normal 12px Arial, sans-serif; clear: both; width: 100%; overflow: hidden; position: relative; display: none;}
+.shortcode-tab.tab-active {display: block;}
+.shortcode-tab h3 {font: bold 12px Arial, sans-serif; color: #144A61; padding: 5px 10px; margin: 0; background: #ececec; text-shadow: 1px 0 0 #fff; -moz-border-radius: 6px 6px 0 0; border-top: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc;}
+
+.shortcode-tab form {margin-bottom: 6px;}
+.shortcode-tab form fieldset {padding: 10px 10px 5px 10px; border: 1px solid #ccc; -moz-border-radius:0 0 5px 5px;
+   -webkit-border-radius:0 0 5px 5px;}
+#TB_ajaxContent .shortcode-tab form p{width: 100%; overflow: hidden; margin: 0 0 6px 0; padding: 0; font-size: 12px;}
+#TB_ajaxContent .shortcode-tab form p.left, #TB_ajaxContent .shortcode-tab form p.right {width: 300px;}
+.shortcode-tab form p.left, .shortcode-tab form .button-row {float: left; clear: both;}
+.shortcode-tab form p.right {float: right;}
+.shortcode-tab form p.clear {clear: both;}
+.shortcode-tab form label.row-label, .color-label {float: left; display:block; width: 80px; padding-top: 3px;}
+.shortcode-tab form .button-row, .shortcode-tab form .right.link-row {text-align: right;}
+.shortcode-tab form p.check-row label.row-label {padding-top: 0;}
+#TB_ajaxContent .shortcode-tab form p.check-row {padding-top: 5px;}
+
+.shortcode-tab form .text-input, .shortcode-tab form .text-area, .shortcode-tab form .select {font-size: 12px; padding: 2px;}
+.shortcode-tab form .text-input, .shortcode-tab form .text-area {width: 510px;}
+.shortcode-tab form p.add-input .text-input {width: 420px; margin-right: 5px;}
+.shortcode-tab form .text-area {height: 75px; padding: 3px;}
+.shortcode-tab form p.left .text-input, .shortcode-tab form p.right .text-input {width: 190px;}
+.shortcode-tab form .checkbox {margin: 0 0 0 0;}
+.shortcode-tab form .select {line-height: 12px; padding: 3px 2px 2px 2px;}
+.shortcode-tab form.helper {display: none;}
+#TB_window .shortcode-tab form p a, #TB_window .shortcode-tab form p a:visited {color: #2887B3; text-decoration: none; font-weight: bold;}
+.shortcode-tab .colorpicker {z-index: 50000;}
+
+/* Colorpicker */
+/* Background */
+#button-color {float: left; width: 36px; height: 36px; background: url(../images/colorpicker/select2.png) no-repeat 0 0; position: relative; margin-right: 20px;}
+#button-color div {position: absolute; top: 4px; left: 4px; width: 28px; height: 28px; background: url(../images/colorpicker/select2.png) no-repeat center;}
+#button-color-holder {width: 356px; overflow: hidden; position: absolute; left: 125px; top: 65px;}
+#button-color-holder .colorpicker {
+	background-image: url(../images/colorpicker/custom_background.png);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#button-color-holder .colorpicker_hue div {
+	background-image: url(../images/colorpicker/custom_indic.gif);
+}
+#button-color-holder .colorpicker_hex {
+	background-image: url(../images/colorpicker/custom_hex.png);
+}
+#button-color-holder .colorpicker_rgb_r {
+	background-image: url(../images/colorpicker/custom_rgb_r.png);
+}
+#button-color-holder .colorpicker_rgb_g {
+	background-image: url(../images/colorpicker/custom_rgb_g.png);
+}
+#button-color-holder .colorpicker_rgb_b {
+	background-image: url(../images/colorpicker/custom_rgb_b.png);
+}
+#button-color-holder .colorpicker_hsb_s {
+	background-image: url(../images/colorpicker/custom_hsb_s.png);
+	display: none;
+}
+#button-color-holder .colorpicker_hsb_h {
+	background-image: url(../images/colorpicker/custom_hsb_h.png);
+	display: none;
+}
+#button-color-holder .colorpicker_hsb_b {
+	background-image: url(../images/colorpicker/custom_hsb_b.png);
+	display: none;
+}
+#button-color-holder .colorpicker_submit {
+	background-image: url(../images/colorpicker/custom_submit.png);
+}
+#button-color-holder .colorpicker input {
+	color: #778398;
+}
+/* Text */
+#button-text-color {float: left; width: 36px; height: 36px; background: url(../images/colorpicker/select2.png) no-repeat 0 0; position: relative; margin-right: 20px;}
+#button-text-color div {position: absolute; top: 4px; left: 4px; width: 28px; height: 28px; background: url(../images/colorpicker/select2.png) no-repeat center;}
+#button-text-color-holder {width: 356px; overflow: hidden; position: absolute; left: 125px; top: 65px;}
+#button-text-color-holder .colorpicker {
+	background-image: url(../images/colorpicker/custom_background.png);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#button-text-color-holder .colorpicker_hue div {
+	background-image: url(../images/colorpicker/custom_indic.gif);
+}
+#button-text-color-holder .colorpicker_hex {
+	background-image: url(../images/colorpicker/custom_hex.png);
+}
+#button-text-color-holder .colorpicker_rgb_r {
+	background-image: url(../images/colorpicker/custom_rgb_r.png);
+}
+#button-text-color-holder .colorpicker_rgb_g {
+	background-image: url(../images/colorpicker/custom_rgb_g.png);
+}
+#button-text-color-holder .colorpicker_rgb_b {
+	background-image: url(../images/colorpicker/custom_rgb_b.png);
+}
+#button-text-color-holder .colorpicker_hsb_s {
+	background-image: url(../images/colorpicker/custom_hsb_s.png);
+	display: none;
+}
+#button-text-color-holder .colorpicker_hsb_h {
+	background-image: url(../images/colorpicker/custom_hsb_h.png);
+	display: none;
+}
+#button-text-color-holder .colorpicker_hsb_b {
+	background-image: url(../images/colorpicker/custom_hsb_b.png);
+	display: none;
+}
+#button-text-color-holder .colorpicker_submit {
+	background-image: url(../images/colorpicker/custom_submit.png);
+}
+#button-text-color-holder .colorpicker input {
+	color: #778398;
+}
+/* Border */
+#button-border-color {float: left; width: 36px; height: 36px; background: url(../images/colorpicker/select2.png) no-repeat 0 0; position: relative;}
+#button-border-color div {position: absolute; top: 4px; left: 4px; width: 28px; height: 28px; background: url(../images/colorpicker/select2.png) no-repeat center;}
+#button-border-color-holder {width: 356px; overflow: hidden; position: absolute; left: 125px; top: 65px;}
+#button-border-color-holder .colorpicker {
+	background-image: url(../images/colorpicker/custom_background.png);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#button-border-color-holder .colorpicker_hue div {
+	background-image: url(../images/colorpicker/custom_indic.gif);
+}
+#button-border-color-holder .colorpicker_hex {
+	background-image: url(../images/colorpicker/custom_hex.png);
+}
+#button-border-color-holder .colorpicker_rgb_r {
+	background-image: url(../images/colorpicker/custom_rgb_r.png);
+}
+#button-border-color-holder .colorpicker_rgb_g {
+	background-image: url(../images/colorpicker/custom_rgb_g.png);
+}
+#button-border-color-holder .colorpicker_rgb_b {
+	background-image: url(../images/colorpicker/custom_rgb_b.png);
+}
+#button-border-color-holder .colorpicker_hsb_s {
+	background-image: url(../images/colorpicker/custom_hsb_s.png);
+	display: none;
+}
+#button-border-color-holder .colorpicker_hsb_h {
+	background-image: url(../images/colorpicker/custom_hsb_h.png);
+	display: none;
+}
+#button-border-color-holder .colorpicker_hsb_b {
+	background-image: url(../images/colorpicker/custom_hsb_b.png);
+	display: none;
+}
+#button-border-color-holder .colorpicker_submit {
+	background-image: url(../images/colorpicker/custom_submit.png);
+}
+#button-border-color-holder .colorpicker input {
+	color: #778398;
+}
+/* Validation */
+.shortcode-tab form p.error .text-input, .shortcode-tab form p.error .text-area, .shortcode-tab form p.error .select {border-color: #990000;}
+.shortcode-tab form p span.error {color: #990000; display: block; padding: 3px 0 0 80px; font: italic bold 11px Arial, sans-serif;}
+
+/* Loading */
+#shortcode-loading {position: absolute; top: 0; left: 0; width: 640px; height: 300px; padding: 0; background: url(../images/bg_loading.png) no-repeat center 100px; text-align: center;}
+#shortcode-loading span {display: block; width: 32px; height: 32px; position: absolute; top: 134px; left: 304px; background: url(../images/loading.gif) no-repeat 0 0;}
+
+.hide {display: none;}
+.hide.default {display: block;}

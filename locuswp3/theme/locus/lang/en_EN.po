@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: locus/functions/locus-functions.php:127
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-functions.php:123
+msgid "%s"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-functions.php:148
+msgid "(Edit)"
+msgstr ""
+
+#. Text in echo
+#: locus/functions/locus-functions.php:135
+msgid "(Your comment is awaiting moderation.)"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-portfolio.php:1
+msgid "Add New Post"
+msgstr ""
+
+#. Text in echo
+#: locus/index.php:25
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: locus/admin/options-framework.php:228
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-functions.php:119
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-portfolio.php:1
+msgid "Edit Post"
+msgstr ""
+
+#. Text in echo
+#: locus/index.php:62
+#: locus/index.php:269
+#: locus/index.php:100
+#: locus/index.php:259
+msgid "Go to Top"
+msgstr ""
+
+#. Text in echo
+#: locus/includes/stop-ie6/errorPage.php:35
+msgid "It looks like you are still using Internet Explorer 7 or earlier, which is not supported by this website. Please update to a cooler browser:"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-portfolio.php:1
+msgid "New Post"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-portfolio.php:1
+msgid "No Post found"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-portfolio.php:1
+msgid "No Post found in Trash"
+msgstr ""
+
+#. Text in function
+#: locus/admin/options-medialibrary-uploader.php:277
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-functions.php:1
+msgid "Page %s"
+msgstr ""
+
+#. Text in echo
+#: locus/functions/locus-functions.php:148
+msgid "Pingback:"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-functions.php:1
+msgid "Primary Navigation"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-portfolio.php:1
+msgid "Search Portfolio"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-functions.php:1
+msgid "Search results for %s"
+msgstr ""
+
+#. Text in function
+#: locus/admin/options-medialibrary-uploader.php:277
+msgid "Upload"
+msgstr ""
+
+#. Text in function
+#: locus/functions/locus-portfolio.php:1
+msgid "View Post"
+msgstr ""

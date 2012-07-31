@@ -1,0 +1,201 @@
+body {
+	background: #dcdcdb url(../images/light/bg1.jpg) 50% 0 repeat;
+	background-attachment: fixed;
+	color:#363636;
+}
+ul.menu, .flexslider, .section-container, .grid li, .contact-container, #bottom, h2.title {
+	background-color: #fff;
+	-moz-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+#header {
+	background: #dcdcdb url(../images/light/bg1.jpg) 50% 0 repeat;
+	background-attachment: fixed;
+}
+a {
+	color: #4a8b86;
+}
+.lite {
+	color: #4a8b86;
+	border-bottom: 1px dashed #4a8b86;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#000;
+}
+#logo h1 {
+	color:#282828;
+}
+#logo h1 a {
+	color:#282828;
+}
+ul.unordered li {
+	background-image: url(../images/light/bullet.png);
+}
+
+
+/* TABLES */
+/* ----------------------------------------- */
+
+table {
+	border-bottom:1px solid #8B8A88;
+	border-top:1px solid #8B8A88;
+}
+
+table td {
+	border-right:1px solid #8B8A88;
+}
+
+table td:hover {
+	background-color: #FFFFFF;
+}
+
+table th {
+	color:#000;
+	border-right:1px solid #8B8A88;
+}
+
+table tr {
+	border-left:1px solid #8B8A88;
+	border-top:1px solid #8B8A88;
+}
+
+table tr.caption {
+	border-left:1px solid #8B8A88;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	MENU
+/*-----------------------------------------------------------------------------------*/
+
+ul.menu li {
+	background: transparent url(../images/light/sep.png) repeat-y top right;
+}
+ul.menu li a {
+	color: #272727;
+}
+ul.menu li a:hover, ul.menu li.current a {
+	color:#010101;
+	background-color: #efefef;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SLIDER
+/*-----------------------------------------------------------------------------------*/
+
+.flexslider {
+	border: 20px solid #fff;
+}
+.flex-caption {
+	
+}
+/* Direction Nav */
+.flex-direction-nav li a {
+	background: transparent url(../images/light/slider-arrows.png) no-repeat 0 0;
+}
+.flex-control-nav li a {
+	background: transparent url(../images/light/slider-buttons.png) no-repeat 0 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SERVICE COLUMNS
+/*-----------------------------------------------------------------------------------*/
+
+#service-columns p {
+	color:#3a3a3a;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	ABOUT
+/*-----------------------------------------------------------------------------------*/
+
+.section-container ul li {
+	background-image: url(../images/light/bullet.png);
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	PORTFOLIO
+/*-----------------------------------------------------------------------------------*/
+
+.grid li, ul.gallery li  {
+	border: 10px solid #FFF;
+}
+.gallerynav li {
+	color:#000;
+}
+.gallerynav li a {
+	color:#000;
+}
+.gallerynav li a:hover, .gallerynav li.active {
+	background: #c0c0c0;
+}
+.caption {
+	background:#FFF;
+	color: #000;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	NEWS
+/*-----------------------------------------------------------------------------------*/
+
+
+.date {
+	background: #d4d4d4;
+	color: #0e0e0e;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	CONTACT
+/*-----------------------------------------------------------------------------------*/
+
+.scrolltop {
+	background: transparent url(../images/light/top.png) no-repeat 0 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	FORMS
+/*-----------------------------------------------------------------------------------*/
+
+.forms fieldset .text-input {
+	background-color: #ededed;
+	color:#363636;
+}
+
+.forms fieldset .text-area {
+	background-color: #ededed;
+	color:#363636;
+}
+
+.forms fieldset .text-input:focus, .forms fieldset .text-area:focus {
+	background-color: #ededed;
+}
+
+.forms fieldset .btn-submit {
+	background-image:url(../images/light/button.png);
+	background-color: #fff;
+	color:#363636;
+}
+.forms fieldset .btn-submit:hover {
+	background-color: #e3e3e3;
+	color:#000;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	TWITTER
+/*-----------------------------------------------------------------------------------*/
+
+#twitter {
+	background-color: #ededed;
+}
+.twitter-wrapper .bird {
+	background: transparent url(../images/light/icon-bird.png) no-repeat;
+}
+.twitterStatus {
+	color: #5e5e5e;
+}
+.message a {
+	color: #000;
+}
+em.twitterTime a {
+	color:#000;
+}
